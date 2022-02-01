@@ -1,0 +1,78 @@
+body {
+  background-color: #ff5349;
+}
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+button {
+  color: #df362d;
+  background-color: orange;
+  border: solid 1px orange;
+  width: 25%;
+  padding: 0.5em 0em;
+  margin: 1em;
+}
+
+form {
+  padding-top: 25px;
+  text-align: center;
+}
+
+label {
+  color: #df362d;
+}
+
+h1 {
+  color: #df362d;
+}
+
+input .top {
+  margin-left: 5em;
+}
+.top {
+  padding: 1.5px;
+  margin: 1em 0 1em 3em;
+  border: solid 1px grey;
+}
+.bottom {
+  padding: 1.5px;
+  margin: 1em 0 1em 1em;
+  border: solid 1px grey;
+}
+
+.meme {
+  position: relative;
+  width: 59%;
+  margin: auto;
+}
+
+.meme > img {
+  width: 100%;
+}
+
+.meme > h2 {
+  position: absolute;
+  width: 80%;
+  text-align: center;
+  left: 50%;
+  transform: translateX(-50%);
+  margin: 15px 0;
+  padding: 0 5px;
+  font-family: impact, sans-serif;
+  font-size: 1em;
+  text-transform: uppercase;
+  color: #ff5349;
+  letter-spacing: 1.5px;
+  text-shadow: 2px 2px 0 #000;
+  border: 0px;
+}
+
+.meme > .bottom {
+  bottom: 0;
+}
+
+.meme > .top {
+  top: 0;
+}
